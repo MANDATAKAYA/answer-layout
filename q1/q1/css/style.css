@@ -1,2 +1,60 @@
 @charset "UTF-8";
-/* 回答はここから */
+/*回答はここから*/
+/*Q1-1上段*/
+.outside-box {
+  background-color: #fff;
+  padding: 20px 0px;/*上下余白20px指定*/
+  font-size: 16px;
+}
+.inner-box {
+  text-align: center;/*文字を真ん中ブロックレベル要素に指定*/
+}
+.inner-text {
+  background-color: #a4b3e9;
+  padding: 10px;
+  display: inline-block;/*幅を全体に表示させない*/
+}
+/*Q1-1上段終了*/
+/*Q1-1 下段*/
+.margin-text {
+  background-color: #a4b3e9;
+  width: 90px;
+  margin: 0 auto;/*ブロックレベル要素に指定*/
+  padding: 10px;
+}
+/*Q1-1下段終了*/
+/*Q1-2上段*/
+.table {
+  display: table;/*テーブル要素同様に表示指定*/
+}
+.table-inner {
+  display: table-cell;/*横並びにする*/
+  text-align: center;/*ブロックレベル要素指定。左右中央*/
+  vertical-align: middle;/*上下中央 table-cellかインライン要素のみ指定できる*/
+}
+.table-text {
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;/*幅を全体に表示させない*/
+}
+/*Q1-2中段*/
+.flex-box {
+  display: flex;/*子要素横並び*/
+  justify-content: center;/*flexボックス。左右中央*/
+  align-items: center;/*flexボックス。上下中央*/
+}
+.flex-text {
+  background-color: #fff;
+  padding: 10px;
+}
+.relative {
+  position:relative;/*親要素絶対領域*/
+}
+.position-text {
+  position: absolute;/*相対領域*/
+  top: 50%;/*上50%*/
+  left: 50%;/*左50%*/
+  transform: translate(-50%,-50%);/*要素の50%上乗せ*/
+  background-color: #a4b3e9;
+  padding: 10px;
+}

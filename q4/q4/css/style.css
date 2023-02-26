@@ -1,1 +1,39 @@
 @charset "UTF-8";
+.container {
+  margin-top: 50px;
+  width: 100%;
+  display: table;/*テーブル要素にする*/
+}
+.container:first-child {
+  margin-top: 0px;
+}
+.box {
+  display: table-cell;/*横並びにする*/
+  padding: 20px;
+  text-align: center;
+}
+.red-block {
+  background-color: #ff7b7b;
+  width: 300px;
+}
+.blue-block {
+  background-color: #7b86ff;
+}
+.yellow-block {
+  background-color: #fff27b;
+  width: 300px;
+}
+.green-block {
+  background-color: #7bff91;
+}
+.pink-block {
+  background-color: #ff7be2;
+  width: 400px;
+}
+.orange-block {
+  background-color: #ffc67b;
+  width: 400px;
+}
+.aqua-block {
+  background-color: #7bf2ff;
+}

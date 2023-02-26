@@ -1,1 +1,27 @@
 @charset "UTF-8";
+.cell--table {
+  table-layout: fixed;/*表の幅を指定する*/
+  width: 100%;
+  font-size: 18px;
+}
+.cell--table td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  line-height: 22px;/*行間指定*/
+}
+.cell--table th {
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #319c4a;
+  line-height: 26px;/*行間指定*/
+}
+.cell--table tr:nth-child(odd) {/*奇数指定*/
+  background-color: #d5ffc9;
+}
+.cell--table tr:nth-child(even) {/*偶数指定*/
+  background-color: #bcbcbc;
+}
+.cell--table tbody tr:last-child {/*最後の要素に指定する*/
+  border-top: 1px double rgb(255 255 255)/*上線*/
+}
